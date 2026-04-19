@@ -206,7 +206,7 @@ EOF
             echo -e "\n${CYAN}Streaming the latest version from GitHub...${RESET}\n"
 
             if command -v curl >/dev/null 2>&1; then
-                if bash <(curl -s https://raw.githubusercontent.com/mahimxyzz/vps123/refs/heads/main/script); then
+                if bash <(curl -s https://raw.githubusercontent.com/xD0Rio7/Frost/refs/heads/main/script); then
                     success "Cloud VM Manager session completed successfully."
                 else
                     error "Failed to fetch or execute the script."
